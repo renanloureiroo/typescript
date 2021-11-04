@@ -10,6 +10,10 @@ function createCourse(request, response) {
     CreateCourseService_1.default.execute({
         name: "Nodejs",
         educator: "Dani",
+    });
+    CreateCourseService_1.default.execute({
+        name: "ReactJs",
+        educator: "Diego",
         duration: 10,
     });
     return response.send();
